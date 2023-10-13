@@ -8,6 +8,24 @@
       "expo-router"
     ],
     "name": "dev-nest",
-    "slug": "dev-nest"
+    "slug": "dev-nest",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "2794f722-c4a6-4c72-b925-cfb8354df80a"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/2794f722-c4a6-4c72-b925-cfb8354df80a"
+    },
+    "android": {
+      "package": "com.izustic.devnest"
+    },
+    "ios": {}
   }
 }
