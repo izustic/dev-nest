@@ -15,7 +15,7 @@ function TabButton({ name, activeTab, onHandleSearchType }) {
   );
 }
 
-const  Tabs = ({ tabs, activeTab, setActiveTab }) => {
+const Tabs = ({ tabs, activeTab, setActiveTab }) => {
   return (
     <View style={styles.container}>
       <FlatList
@@ -28,7 +28,7 @@ const  Tabs = ({ tabs, activeTab, setActiveTab }) => {
             activeTab={activeTab}
             onHandleSearchType={() => setActiveTab(item)}
           />
-        )} 
+        )}
         contentContainerStyle={{ columnGap: SIZES.small / 2 }}
         keyExtractor={(item) => item}
       />

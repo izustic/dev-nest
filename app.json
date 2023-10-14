@@ -4,28 +4,15 @@
     "web": {
       "bundler": "metro"
     },
-    "plugins": [
-      "expo-router"
-    ],
-    "name": "dev-nest",
-    "slug": "dev-nest",
+    "name": "devnest",
+    "slug": "devnest",
     "extra": {
-      "router": {
-        "origin": false
-      },
       "eas": {
-        "projectId": "2794f722-c4a6-4c72-b925-cfb8354df80a"
+        "projectId": "d2037fc1-5f9f-4000-b196-ffd82ed6e58e"
       }
-    },
-    "runtimeVersion": {
-      "policy": "appVersion"
-    },
-    "updates": {
-      "url": "https://u.expo.dev/2794f722-c4a6-4c72-b925-cfb8354df80a"
     },
     "android": {
       "package": "com.izustic.devnest"
-    },
-    "ios": {}
+    }
   }
 }
